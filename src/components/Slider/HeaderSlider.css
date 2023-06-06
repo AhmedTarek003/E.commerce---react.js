@@ -1,0 +1,9 @@
+.slider-item {
+  max-height: 300px;
+}
+.slider-item img {
+  max-width: 100%;
+}
+.slider-content {
+  overflow-y: hidden;
+}

@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--main-color);
+  color: white;
+  margin-top: 25px;
+}
+.footer .content {
+  text-align: center;
+  padding: 5px;
+}
+.footer .contact {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contact li {
+  margin-left: 9px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer .contact li:not(:last-child) {
+  border-right: 1px solid #363688;
+  padding-right: 10px;
+}
